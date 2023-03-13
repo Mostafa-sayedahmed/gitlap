@@ -1,0 +1,313 @@
+body{
+    margin:0;
+}
+*{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+font-family: 'Old Standard TT', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Tajawal', sans-serif;
+}
+#header{
+    position: fixed;
+    width: 100%;
+    font-size: 18px;
+}
+#nav{
+    background-color: #202020;
+   height: 30px;
+    padding:10px;
+    display:flex;
+    font-size: 14px;
+}
+.links{
+    width:50%;
+    text-align: right;
+    margin-right: 75px;
+    vertical-align: middle;
+}
+.a1,i{
+    padding:8px;
+    color:#B6B9D8;
+    text-decoration: none;
+}
+#nav2{
+    height: 68px;
+    background-color: #2b2b2b; 
+    padding:10px;
+    display:flex;
+    font-size: 17px;
+    
+}
+.a2{
+    padding:18px;
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 17px;
+}
+.button1-nav{
+    padding:10px 35px;
+    font:14px;
+    color:#ffffff;
+    background-color:#2b2b2b ;
+    border:1px #ffffff solid;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.button1-nav:hover{
+    background-color:#ffffff;
+    color: black; 
+}
+.button2-nav{
+    padding:10px 35px;
+    font:14px;
+    color:#ffffff;
+    font-size: 16px;
+    background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
+    cursor: pointer;
+
+}
+#Fpart{
+    background-color: #311662;
+    display: flex;color: white;
+    height:477px;
+}
+#Fpart2{
+border:4px #2e1350 solid;
+border-radius: 24px;
+background-color: #2e1350;
+padding: 25px;
+}
+.Fpart-btn{
+    border: 1px #ec008c solid;
+    background-color: #ec008c;
+    color:#ffffff;
+    width: 179px;
+    height: 53px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.Fpart-btn:hover{
+    background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28);
+}
+#Spart{
+    display:flex;
+    background-color:#311662 ;
+    height:150px;
+    color:#ffffff;
+    padding-top: 30px;
+}
+#POP{
+    display: flex;
+    align-content: center;
+    margin-top: 25px;
+    margin-left: 50px;
+    
+}
+.POP{
+    border:1px red solid;
+    height: 84px;
+    width:84px;
+
+}
+.img-icon{
+    width: 84px;
+    height: 84px;
+    margin:10px;
+}
+.img-icon:hover{
+    border:2px #fd3e8d solid;
+    border-radius: 15px;
+    transform: scaleY(1.1);
+    transition-duration: 0.7s;
+}
+.btn-4{
+    border: 1px #ec008c solid;
+    background-color: #ec008c;
+    color:#ffffff;
+    width: 179px;
+    height: 53px;
+    font-size: 15px;
+    font-weight: bolder; 
+}
+.btn-42{
+    background-color: #ffffff;
+    color:black;
+    width: 179px;
+    height: 53px;
+    font-size: 15px;
+    font-weight: bolder; 
+    margin-left: 10px;
+}
+.btn-4:hover{
+    background-image: linear-gradient(to right,#f05a28,#ec008c,#f05a28); 
+}
+#Fpart-main{
+    display:flex;
+    width:84%;
+    margin-bottom:20px;
+    align-items: center;
+    margin-top:50px;
+    margin-left: 8%;
+    font-size: 20px;
+}
+#Fpart-card{
+    width:33%;
+    margin:0 15px 0 15px;
+}
+#Fpart-heading{
+    
+    width:84%;
+    margin-left: 8%;
+    display: flex;
+   
+}
+#Spart-heading{
+    width:84%;
+    margin-left: 8%;
+    display: flex;
+   margin-top: 65px; 
+   margin-bottom: 65px; 
+  
+}
+#Spart-links{
+    
+    font-size: 17px;
+    border-bottom: 1px grey solid;
+    width:100%;
+    height: 30px;
+    padding:6px;
+    margin:0;
+   
+   
+
+}
+h4 a{
+    text-decoration: none;
+    padding:10px ;
+    margin:0;
+}
+#Spart-links:hover{
+    background-color:rgb(211, 211, 211);
+   
+}
+#Cpart-card{
+    width:33%;
+    height: 373px;
+    margin:15px 15px 15px 15px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    color:black;
+    font-size: 18px;
+}
+#SI{
+color: black;
+margin:0 10px 0 0;
+padding: 0;
+}
+.price{
+    background-color: #1b1834;
+    height: 1071px;
+    color:wheat;
+}
+.price1,.price2{
+    background-color: #1b1834;
+    width:84%;
+    margin-left: 8%;
+    display: flex;
+}
+.price1{
+    
+    height: auto;
+    align-items: center;
+    display: flex;
+    
+}
+.price2{
+    
+    height: auto;
+}
+.center{
+    width:30%;
+    margin-left:43% ;
+    margin-right: 27%;
+    margin-top: 150px;;
+}
+.center-btn{
+    display:flex;
+    width:30%;
+    margin-left:36% ;
+    margin-right: 34%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Price-btn{
+    width:300px;
+    height:65px;
+    border-radius: 35px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+    color: white;
+}
+.price3{
+    background-color: #1b1834;
+    width:75%;
+    margin-left: 12.5%;
+    display: flex;
+    
+}
+.crd1,.crd2,.crd3{
+    width: 33%;
+   height:350px;
+   background-color: #191919;
+    text-align: center;
+    border: 2px #191919 solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    align-self: center;
+    padding:25px;
+    
+}
+.footer-c{
+    background-color: #191919;
+    height:600px;
+   
+}
+.footer{
+    width:75%;
+    height: auto;
+    margin-left: 12.5%; 
+    background-color: #191919;
+    color:white;
+    display: flex;
+    
+}
+.footer-I{
+    width: 20%;
+    margin-top: 80px;
+}
+.footer-l{
+    text-decoration: none;
+    color:white;
+    
+}
+li{
+    list-style-type: none;
+    padding:5px;
+}
+ul{
+    margin-left: -45px;
+}
+#email{
+    background-color: #313131 ;
+    width:348px;
+    height: 46px;
+    border-radius: 10px;
+}
+.Social{
+    margin:10px 0px 10px -5px;
+}
+a{
+    text-decoration: none;
+}

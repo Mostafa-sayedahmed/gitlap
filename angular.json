@@ -102,6 +102,10 @@
     }
   },
   "cli": {
+<<<<<<< HEAD
     "analytics": "9166178b-38b7-4781-adbd-87f389cbae22"
+=======
+    "analytics": "1cb7e46a-30a7-4554-94e7-8496e5a53dcf"
+>>>>>>> mostafa
   }
 }
